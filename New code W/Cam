@@ -92,21 +92,15 @@ public class Robot extends IterativeRobot {
 	@Override
 	public void teleopPeriodic() {
 		
-        rightback.
-        rightback.set(rightstick.getY());
-        leftback.set(rightstick.getY());
-        
        
+        rightback.set(rightstick.getY());
+        leftback.set(rightstick.getX());
+        leftback.set(rightstick.getY());
+        leftback.set(rightstick.getX());
+        rightback.set(rightstick.getX());
+        rightback.set(rightstick.getX());
 	}
 	
-	
-		// TODO Auto-generated method stub
-		
-	
-
-	
-		// TODO Auto-generated method stub
-		
 	
 
 		
